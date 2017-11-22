@@ -1,0 +1,21 @@
+NEW:
+
+- UI: Show alerts for stream delay/change/toggle shortcut actions
+- UI: Press `left`/`right` in photo player when controls are hidden to switch to the previous/next item
+- UI: On post play screen, press `enter`/`play` or click on either poster to start playback of that item
+- UI: When player has a single item play queue and a playback error occurs, closing the error modal will close the player
+
+FIXED:
+
+- Media keys now work correctly in Windows, no longer triggering the same action twice
+- UI: Rounded posters no longer become square when focused
+- UI: Starting playback from post play screen no longer breaks the app
+- UI: Fixed movie extras and music videos playback
+- UI: Fixed restoring focus after closing player when beginning playback from Watch Later action buttons
+- UI: Trailers now play correctly before movies
+- UI: `Allow Direct Play` and `Allow Direct Stream` video options no longer affect audio playback
+- UI: Fixed photo slideshow not appearing over Channel browse page
+- UI: Adjusting volume while player controls are hidden no longer makes controls appear
+- UI: Pressing `exit` shortcut during video playback no longer makes player controls appear
+- UI: Watch later videos with play offset can be correctly resumed
+- UI: Scroll position is correctly restored when closing the player and returning to dashboard page
